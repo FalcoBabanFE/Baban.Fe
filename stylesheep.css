@@ -1,0 +1,95 @@
+/*
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+*/
+.hero{
+    height: 200px;
+    width: 100%;
+   
+    background-size: cover;
+    background-position: center;
+
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    padding-top: 40px;
+    padding-left: 10% ;
+    padding-right: 10%;
+}
+span{
+    font-size:  15px;
+    color: black;
+}
+.logo{
+    color: dodgerblue;
+    font-size: 28px;
+    text-decoration: none;
+    }
+nav ul li{
+     list-style-type:none ;
+     display: inline-block;
+     padding: 15px;
+}
+nav ul li  {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    }
+nav ul li  :hover{
+    color:dodgerblue ;
+    transition: .3s;
+}
+p{
+    font-size: large;
+    text-align:right
+} 
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #407fb3; 
+    color: rgb(0, 0, 0);
+  }
+  .button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 0px solid #407fb3; 
+  }
+  .button {padding: 20px 30px;}
+  .button {
+    float: left;
+    border: 1px solid #407fb3;
+  }
+
+  h1 {
+    text-align:right
+  }
+  h2 {
+    text-align:right
+  }
+  h3 {
+    text-align:right
+  }
+  b {
+    text-align:right
+  }
+  h4 {
+    text-align:right
+  }
+  
+  
